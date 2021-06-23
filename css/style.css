@@ -1,4 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@font-face {
+	font-family:"Gilroy";
+	src: url("../fonts/Gilroy-Medium.ttf"); 
+	font-style:normal;
+	font-weight:200;
+}
+@font-face {
+	font-family:"Gilroy";
+	src: url("../fonts/Gilroy-Light.ttf"); 
+	font-style:normal;
+	font-weight:100;
+}
+
 body {
 	font-family: 'Nunito', sans-serif;
 	font-size: 14px;
@@ -421,8 +436,102 @@ ul li a:hover {
 
 .worktitle {
 	margin-top: 100px!important;
+	margin-left: 5%;
 }
 
 .pd-work {
 	padding-top: 30px;
 }
+
+.petto{
+	font-family: 'Poppins', sans-serif;
+	padding-top:10%;
+	padding-bottom:10%;
+	
+	background-position:center;
+	background-size: cover;
+}
+
+.mockup-shadow{
+	box-shadow: 12px 56px 77px -65px rgba(0, 0, 0, 0.25);
+}
+
+.parallax-petto {
+	background-image:url("../img/fondo_petto.png");
+	min-height: 500px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+  }
+
+  .parallax-petto {
+	background-image:url("../img/fondo_petto.png");
+	min-height: 500px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+  }
+
+  .parallax-arcadia {
+	background-image:url("../img/fondo_arcadia.png");
+	min-height: 500px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+  }
+
+  .arcadia-font{
+	  color:#FFA47D !important; 
+	  font-family: 'Poppins', sans-serif;
+	  font-weight:200 !important;
+
+  }
+  strong{
+	  font-weight: 500 !important;
+  }
+
+  .mizu-font{
+	  font-family:Gilroy;
+  }
+
+  .mizu-fontlight{
+	font-family:Gilroy;
+	font-weight: lighter;
+}
+
+  .parallax-mizu {
+	background-image:url("../img/fondo-mizu.png");
+	min-height: 500px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+  }
+
+  .parallax-wavedrop {
+	background-image:url("../img/wavedrop_bg.png");
+	min-height: 500px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+
+  } 
+ .mizu-fontp{
+	 font-size: 20px;
+ }
+
+ .wavedropfont{
+	font-family: 'Raleway', sans-serif;
+	color: #8d8d8d !important;
+ }
+ .wavedrop{
+	 padding-top: 10%;
+	 padding-bottom: 10%;
+ }
+
